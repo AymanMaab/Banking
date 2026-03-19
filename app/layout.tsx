@@ -20,10 +20,11 @@ const ibmPlexSerif = IBM_Plex_Serif({
 
 export const metadata: Metadata = {
   title: "Zyntra",
-  description: "Zyntra is a modern banking platform offering secure and easy financial services.",
+  description:
+    "Zyntra is a modern banking platform offering secure and easy financial services.",
   icons: {
-    icon: '/icons/logo.svg'
-  }
+    icon: "/icons/logo.svg",
+  },
 };
 
 export default function RootLayout({
